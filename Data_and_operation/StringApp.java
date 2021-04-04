@@ -12,6 +12,7 @@ public class StringApp {
          
         // new line
         System.out.println("Hello \nWorld");
+        // escape
          
         // escape
         System.out.println("Hello \"World\"");// Hello "World"
