@@ -1,0 +1,12 @@
+lec01/Main.java
+ lec01.Main
+lec04/Parrot.java
+ lec04.Parrot
+lec04/Switch.java
+ lec04.Switch
+lec03/scan.java
+ lec03.scan
+lec04/Scan2.java
+ lec04.Scan2
+lec02/Hello2.java
+ lec02.Hello2
