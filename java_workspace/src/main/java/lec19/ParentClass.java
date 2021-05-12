@@ -13,4 +13,8 @@ public class ParentClass {
     private void privateFun() {
         System.out.println("--privateFun() start--");
     }
+
+    public void makeBread() {
+        System.out.println("--makeBread() start--");
+    }
 }

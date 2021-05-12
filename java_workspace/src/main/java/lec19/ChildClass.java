@@ -9,5 +9,8 @@ public class ChildClass extends ParentClass {
     public void childFun() {
         System.out.println("--childFun() start--");
     }
-
+    @Override
+    public void makeBread() {
+        System.out.println("--more delicious makeBread() start--");
+    }
 }
