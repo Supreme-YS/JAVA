@@ -1,7 +1,5 @@
-package lec23Pjt001;
+package lec23;
 
 public interface LambdaInterface2 {
-	
-	public void method(String s1);
-	
+    public void method(String s1);
 }

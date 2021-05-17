@@ -1,7 +1,5 @@
-package lec23Pjt001;
+package lec23;
 
 public interface LambdaInterface3 {
-	
-	public void method();
-	
+    public void method();
 }
