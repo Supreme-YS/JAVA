@@ -13,7 +13,7 @@ public class Gugudan {
         System.out.println(2 * 6);
         System.out.println(2 * 7);
         System.out.println(2 * 8);
-        System.out.println(2 * 9); // 한 줄 복사 cmd + d
+        System.out.println(2 * 9);
         System.out.println("*****");
         // 3단
         System.out.println(3 * 1);
@@ -26,32 +26,22 @@ public class Gugudan {
         System.out.println(3 * 8);
         System.out.println(3 * 9);
         System.out.println("*****");
-        // 변수를 활용한 4단
-        int result = 4 * 1;
-        System.out.println(result);
-        // 사용자에게 입력을 받고 값을 출력하기
-        System.out.println("구구단 중 출력할 단은?");
+        // 변수를 사용한 4단
+        int dan = 4;
+//        System.out.println(dan);
+        System.out.println(dan * 1);
+        System.out.println(dan * 2);
+        System.out.println(dan * 3);
+        System.out.println(dan * 4);
+        System.out.println(dan * 5);
+        System.out.println(dan * 6);
+        System.out.println(dan * 7);
+        System.out.println(dan * 8);
+        System.out.println(dan * 9);
+        System.out.println("*****");
+        // 사용자 입력을 받는 5단
+        System.out.println("구구단 중 몇 단을 알고싶은가 자네");
         Scanner scanner = new Scanner(System.in);
         int number = scanner.nextInt();
-        System.out.println("number : " + number);
-
-        int results = number * 1;
-        System.out.println(results);
-        results = number * 2;
-        System.out.println(results);
-        results = number * 3;
-        System.out.println(results);
-        results = number * 4;
-        System.out.println(results);
-        results = number * 5;
-        System.out.println(results);
-        results = number * 6;
-        System.out.println(results);
-        results = number * 7;
-        System.out.println(results);
-        results = number * 8;
-        System.out.println(results);
-        results = number * 9;
-        System.out.println(results);
     }
 }
