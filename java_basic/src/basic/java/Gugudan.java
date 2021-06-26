@@ -52,5 +52,17 @@ public class Gugudan {
         System.out.println(number * 7);
         System.out.println(number * 8);
         System.out.println(number * 9);
+        System.out.println("*****");
+        // while 반복문을 사용한 6단
+        int i = 1;
+        while (i < 10) {
+            System.out.println(i * 6);
+            i = i + 1;
+        }
+        System.out.println("*****");
+        // for 반복문을 사용한 7단
+        for (int j = 1; j < 10 ; j++){
+            System.out.println(j * 7);
+        }
     }
 }
