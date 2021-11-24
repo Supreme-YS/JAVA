@@ -5,7 +5,7 @@ Java programming
 >
 > > Standard-java : 자바의 정석
 >
-> 자바 관련 깃허브 링크
+> 자바  깃허브 링크
 >
 > >  [코드 스쿼드 - 달력 만들기 프로젝트](https://github.com/Supreme-YS/codesquad-java-calendar)
 > >
