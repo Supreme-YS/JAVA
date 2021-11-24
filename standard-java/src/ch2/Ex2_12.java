@@ -9,6 +9,6 @@ public class Ex2_12 {
         System.out.println('3' - '0' + 1); // 문자 - '0' = 숫자 , 숫자 + 숫자 = 숫자
         System.out.println(Integer.parseInt("3") + 1); // 문자열 -> 숫자 , 숫자 + 숫자 = 숫자
         System.out.println("3" + 1); // 문자열 + 숫자 = 문자열
-        System.out.println((char) (3 + '0'));
+        System.out.println((char) (3 + '0')); // 숫자를 문자로 변환 = 문자
     }
 }
