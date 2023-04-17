@@ -23,8 +23,18 @@ public class Foo {
         Function<Integer, Integer> minusOne = (i) -> i-1;
         Function<Integer, Integer> multiplyTwo = (i) -> i*2;
 
+        // compose
         Function<Integer, Integer> multiplyTwoAndMinusOne = minusOne.compose(multiplyTwo);
         System.out.println(multiplyTwoAndMinusOne.apply(10));
+
+        // and then
+        Function<Integer, Integer> minusOneAndMultiplyTwo = minusOne.andThen(multiplyTwo);
+        System.out.println(minusOneAndMultiplyTwo.apply(10));
+
+        /*
+        * https://docs.oracle.com/javase/8/docs/api/java/util/function/package-summary.html
+        * */
+
 
     }
 }
