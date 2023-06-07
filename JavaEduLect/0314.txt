@@ -1,0 +1,33 @@
+데이터 타입 (Primitive / Class data type(Reference))
+ --> 어떤 종류의 데이터 인지
+ --> 어느정도의 용량을 가지고 메모리를 올라가는지
+스크립트 기반 var 000 : 데이터 타입에 대한 제한이 없다.
+하지만 자바는 데이터 타입을 정해준다.
+
+데이터 타입의 종류
+Default Data Type : int, double 
+Default Value : 정수 - 0, 실수 - 0, 논리 - false
+
+Primitive Data Type(8)
+
+문자 ---- "Hello" (X) / 'h' (O) 한 문자를 담을 수 있음 char
+
+숫자 ---- 정수 byte, short, int, long
+	실수 float double
+
+논리 ---- boolean (false/true)
+
+========================================================
+
+패키지(클래스시스템) = 디렉토리(파일시스템) = 폴더
+src 하위부터 잡아야 한다. com\edu\datatype\test\DataTypeAppTest1.java
+
+========================================================
+
+DB 테이블
+
+========================================================
+
+Encapsulation
+
+Value Object : 필드 

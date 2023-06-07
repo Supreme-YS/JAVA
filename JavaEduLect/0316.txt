@@ -1,0 +1,40 @@
+
+
+Access Modifier(접근지정자)
+- Private : 같은 클래스 내에서만 접근이 허용된다.
+- ★Protected : 상속과 밀접한 관련이 있다. 상속 관계에선 protected를 쓰는게 좋다
+	2개의 클래스가 상속 시 --public
+	상속아닌경우 --default
+- Public : 어디서든지 접근을 허용
+* 접근지정자를 안붙이면 default인데, 같은 '디렉토리'안에서만 접근을 허용
+
+1. 필드 ---자식에게 물려진다 (자식이 부모의 필드에 접근)
+2. 메소드 -- 자식에게 물려진다 (자식이 자신에게 맞도록 고쳐서 사용) 
+"재사용"
+
+
+
+
+Polymorphism -- 다형성(여러개의 모습과 모양을 갖는것, 부모타입으로 다양한 자식객체들을 생성하는 것)
+Employee m = new Employee(o,o,o);
+Manager m = new Manager(o,o,o,o);
+
+Employee m = new Manager(o,o,o,o);
+Employee eg = new Engineer(o,o,o,o,o);
+Employee s = new Secretary(o,o,o,o);
+
+1. Object Casting - 부모타입으로 자식객체 생성 . 자식만의 멤버는 반드시 Object Casting
+2. Virtual Method Invocation 
+부모기능을 가져와서 고쳐서 사용한 메서드는 Overriding 메서드는 부모타입의 변수로 호출해도
+자식의 기능이 결과적으로 출력된다.
+
+
+ ---Singleton Pattern
+ * 하나의 클래스 타입으로 오직 단 하나의 인스턴스만 생성되도록 코드를 강제하는 패턴
+
+
+static
+Interface
+abstract class
+
+

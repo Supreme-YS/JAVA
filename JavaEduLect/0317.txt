@@ -1,0 +1,24 @@
+Interface
+선언부의 껍데기만 제공하는 것 : 추상 메서드 (public void connect();)
+추상 메서드의 집합을 인터페이스라고 한다. 함수의 선언부만 있고, 구현부는 없다.
+Contract(개발자와 벤터사와의 약속)
+
+추상화 전에 Is a Relation이 되는지 확인 
+구성요소
+1. 추상메서드
+2. 상수
+
+
+Collection API
+
+여러개의 데이터(객체기반)를 저장하는 방법론(인터페이스 특징)
+가장 원시적(순서가 없다, 중복 허용)인 방법으로 저장
+Collection (Interface)
+ Set(Collection 다음으로 원시적으로 저장, 순서 X, 중복 X) , HashSet(자식)
+ / List (시작점과 끝점을 가지면서 저장, 순서 O, 중복 O) ,  Vector, ArrayList, LinkedList(자식들)
+
+Map(Interface)
+순서 X, 키는 중복 X, 값은 중복 허용 , Hashtable - Properties★(key-value둘다 스트링저장만 값이 객체가 스트링이다) , HashMap
+
+Exception
+

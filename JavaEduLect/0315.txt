@@ -1,0 +1,44 @@
+테스트 클래스의 역할
+1. 객체 생성(메모리에 올린다- VO의 필드와 메서드)
+2. 접근 (메서드의 접근 및 호출)
+
+상속
+
+물려받는 것 + 자식은 자신의 멤버를 추가
+ Object Class 필드 없이 메서드로만 이루어짐
+
+오버라이딩은 메서드가 새롭게 다시 태어났다.(메서드 재정의)
+1.step 부모가 물려준다
+2.step 자식이 그걸 바꾼다.
+
+abstraction 
+- 관련성 없는 모듈 사이에서 공통적으로 들어있는 성질을 찾아서 
+그 성질을 일반적인 성질로 가지는 모듈을 하나 상정
+
+- IS a Relation
+Manager is a Employee
+Engineer is a Employee
+Secretary is a Employee 가 성립하면 상속을 맺으면 된다.
+* Composed 랑 잘 구분해야함  (점은 원이다. ? 원은 점이다.?) 점은 원의 구성이다. (Composed)
+
+자식 extends 부모 : 부모로부터 확장된 애가 자식이다. 
+부모 : name, birthdate, salary
+자식 : dept 
+
+
+
+-- 상속 리뷰
+객체를 만들면 (기본)생성자가 동작한다. 
+super
+super(); -- 부모생성자 호출
+super.a(); -- 부모에 있는 a라는 함수의 호출
+super.name -- 부모가 가지고 있는 변수 이름을 호출
+
+this
+this(a);
+this.name;
+
+--
+다양한 SubClass들을 단일하게 관리.. 한단계위에서 관리
+addManager / addEngineer / addSecretary 등을
+addEmployee() 로 만든다
