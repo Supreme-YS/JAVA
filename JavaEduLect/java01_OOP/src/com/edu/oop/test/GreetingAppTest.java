@@ -22,6 +22,6 @@ public class GreetingAppTest {
 		hello.greet = "안녕하세요";
 		
 		//3. 메서드(함수)를 동작
-		hello.sayHello();//호출
+		hello.sayHello();//호출ㅋ
 	}
 }
